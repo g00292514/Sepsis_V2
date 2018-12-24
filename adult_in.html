@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sepsis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="logo-header">
+        <img alt="logo_a" src="./images/Logo_Sepsis_web.png" width="100%" height="auto">
+    </div> <!--Logo header-->
+    <!--used div-->
+    <div></div>
+    <article>
+        <div class="main-content-ed">
+            <p class="group-id">Identify which of the following 3 groups the patient
+                belongs to and assign appropriate triage category</p>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides">
+                    <div class="slide_heading">
+                        <div class="slide_group_id">1</div>
+                        <div>At risk of neutropenia, e.g. on chemotherapy/radiotherapy</div>
+                    </div>
+                    <div class="numbertext">1 / 4</div>
+                    <div class="info">
+                        <div class="info-text">Unwell and at risk of neutropenia, e.g. on chemotherapy/ radiotherapy
+                        </div>
+                        <div class="info-text">Follow the 'Febrile Neutropenia' pathway if pathway in operation</div>
+                        <div class="info-text">Note: these patients may present with fever</div>
+                    </div>
+                </div>
+                <!--<div class="text">Caption Text</div>-->
+
+
+                <div class="mySlides">
+                    <div class="slide_heading">
+                        <div class="slide_group_id">2</div>
+                        <div>Clinical evidence of <strong>new onset</strong> organ dysfunction</div>
+                    </div>
+                    <div class="numbertext">2 / 4</div>
+                    <div class="info">
+                        <div class="info-text">
+                            <h2>Any 1 of the following signs of acute organ dysfunction:</h2>
+                            <ul>
+                                <li>RR > 30</li>
+                                <li>O<sub>2</sub> sat < 90%</li>
+                                <li>SBP < 100</li>
+                                <li>HR > 130</li>
+                                <li>Mottled or ashen appearance</li>
+                                <li>Non-blanching rash</li>
+                                <li>Other organ dysfunction</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--<div class="text">Caption Two</div>-->
+                </div>
+
+                <div class="mySlides">
+                    <div class="slide_heading">
+                        <div class="slide_group_id">3</div>
+                        <div>Co-morbidites <strong>PLUS</strong> &ge; modified SIRS</div>
+                    </div>
+                    <div class="numbertext">3 / 4</div>
+                    <div class="info">
+                        <div class="info-text">
+                            <ul>
+                                <li>&ge; SIRS criteria</li>
+                                <li>RR &ge; 20</li>
+                                <li>HR > 90</li>
+                                <li>Temp 38<sup>O</sup>C or < 36<sup>O</sup>C</li>
+                                <li>BSL > 7.7 mmol/l (in non-diabetic patient)</li>
+                            </ul>
+                        </div>
+                        <div class="info-text">PLUS &ge; co-morbidity</div>
+                    </div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext"></div>
+                    <a href="form_adult_in.html">
+                        <div class="screen-pos">Screen Positive</div>
+                    </a>
+                    <a href="index.html">
+                        <div class="screen-neg">Screen Negative - usual management</div>
+                    </a>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
+    </article>
+</div>
+</body>
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
+</html>
