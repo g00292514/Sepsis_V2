@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c33641a4-7046-4230-b7b3-b76bebfd4704" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/form_adult_in.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/Adult ED Sepsis Managment Algorithm 2018.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/Adult In-Patient Sepsis Management Algorithm 2018.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/Combined Adult SEPSIS.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/Maternal Sepsis 3.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/Maternal Sepsis Management Algorithim GUH[2880].pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/Maternal Sepsis Management Algorithm.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Fluid resuscition algorithm.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adult_in.html" beforeDir="false" afterPath="$PROJECT_DIR$/adult_in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="adult_in.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="adult_in.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adult_in.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="82" column="49" selection-start-line="82" selection-start-column="49" selection-end-line="82" selection-end-column="49" />
+            <state relative-caret-position="2149">
+              <caret line="134" column="20" lean-forward="true" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -43,17 +36,26 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="45" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="45" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form_adult_in.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="in_patient_question.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/in_patient_question.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form_adult_in.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/form_adult_in.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="227">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -83,11 +85,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/styles.css" />
+        <option value="$PROJECT_DIR$/form_adult_in.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/in_patient_question.html" />
         <option value="$PROJECT_DIR$/adult_in.html" />
-        <option value="$PROJECT_DIR$/form_adult_in.html" />
-        <option value="$PROJECT_DIR$/styles.css" />
       </list>
     </option>
   </component>
@@ -135,8 +137,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\calse\WebstormProjects\SepsisV2\pdf" />
       <recent name="C:\Users\calse\WebstormProjects\SepsisV2\images" />
+      <recent name="C:\Users\calse\WebstormProjects\SepsisV2\pdf" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -166,7 +168,7 @@
       <workItem from="1545523615565" duration="5650000" />
       <workItem from="1547030996624" duration="266000" />
       <workItem from="1547037547890" duration="1248000" />
-      <workItem from="1547039038069" duration="1648000" />
+      <workItem from="1547039038069" duration="2859000" />
     </task>
     <task id="LOCAL-00001" summary="inpat sepsis">
       <created>1545609827706</created>
@@ -182,11 +184,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545610911770</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="inpat sepsis done">
+      <created>1547046814327</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1547046814327</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23118000" />
+    <option name="totallyTimeSpent" value="24329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -219,7 +228,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inpat sepsis" />
-    <option name="LAST_COMMIT_MESSAGE" value="inpat sepsis" />
+    <MESSAGE value="inpat sepsis done" />
+    <option name="LAST_COMMIT_MESSAGE" value="inpat sepsis done" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/adult_in.html">
@@ -304,17 +314,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/in_patient_question.html">
+    <entry file="file://$PROJECT_DIR$/adult_in.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="2149">
+          <caret line="134" column="20" lean-forward="true" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form_adult_in.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/in_patient_question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -325,23 +348,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/form_adult_in.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adult_in.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="82" column="49" selection-start-line="82" selection-start-column="49" selection-end-line="82" selection-end-column="49" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="227">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>
