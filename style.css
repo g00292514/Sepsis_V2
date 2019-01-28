@@ -300,26 +300,8 @@ ul li {
     white-space: nowrap;
 }
 @media screen and (max-width: 410px) {
-    .dropdown-content a {
-        color: #FFFFFF;
-        background-color: #717171;
-        padding: 12px 48px;
-        text-decoration: none;
-        display: block;
-        border: #717171 1px solid;
-        border-radius: 0;
-        font-size: 100%;
-        white-space: nowrap;
-    }
-    .dropbtn {
-        background-color: #717171;
-        color: white;
-        padding: 16px;
-        /*margin-right: 51px;*/
-        margin-top: 40%;
-        font-size: 100%;
-        border: none;
-        cursor: pointer;
+    article {
+        font-size: small;
     }
 }
 
