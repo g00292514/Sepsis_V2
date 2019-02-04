@@ -42,8 +42,8 @@
       <file leaf-file-name="adult_ed.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adult_ed.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="83" column="46" selection-start-line="83" selection-start-column="46" selection-end-line="83" selection-end-column="46" />
+            <state relative-caret-position="-878">
+              <caret line="71" column="50" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="50" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -55,8 +55,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="290" lean-forward="true" selection-start-line="290" selection-end-line="290" />
+            <state relative-caret-position="448">
+              <caret line="294" column="19" lean-forward="true" selection-start-line="294" selection-start-column="19" selection-end-line="294" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -64,7 +64,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4443">
+            <state relative-caret-position="6613">
               <caret line="461" selection-start-line="461" selection-end-line="461" />
             </state>
           </provider>
@@ -210,7 +210,7 @@
       <workItem from="1548668042073" duration="4180000" />
       <workItem from="1548672688442" duration="51000" />
       <workItem from="1548759320634" duration="230000" />
-      <workItem from="1549271368939" duration="761000" />
+      <workItem from="1549271368939" duration="1511000" />
     </task>
     <task id="LOCAL-00001" summary="inpat sepsis">
       <created>1545609827706</created>
@@ -282,11 +282,25 @@
       <option name="project" value="LOCAL" />
       <updated>1548759506771</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add &gt; sign to temp">
+      <created>1549272143311</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1549272143311</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add &gt; sign to temp">
+      <created>1549272610140</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1549272610140</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35151000" />
+    <option name="totallyTimeSpent" value="35901000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -301,7 +315,7 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16815476" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16815476" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297546" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50223213" side_tool="true" weight="0.3297546" />
@@ -728,24 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adult_ed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="83" column="46" selection-start-line="83" selection-start-column="46" selection-end-line="83" selection-end-column="46" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4443">
-          <caret line="461" selection-start-line="461" selection-end-line="461" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/adult_in.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -757,10 +753,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6613">
+          <caret line="461" selection-start-line="461" selection-end-line="461" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adult_ed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-878">
+          <caret line="71" column="50" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="290" lean-forward="true" selection-start-line="290" selection-end-line="290" />
+        <state relative-caret-position="448">
+          <caret line="294" column="19" lean-forward="true" selection-start-line="294" selection-start-column="19" selection-end-line="294" selection-end-column="19" />
         </state>
       </provider>
     </entry>
