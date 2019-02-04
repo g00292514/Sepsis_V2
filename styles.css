@@ -279,6 +279,9 @@ a {
     zoom: 1;
 }
 
+
+
+
 /*clear floats*/
 @media screen and (max-width: 540px) {
 
@@ -290,6 +293,6 @@ a {
         font-size: 300%
     }
     .slide_heading{
-        font-size: 260%;
+        font-size: 150%;
     }
 }
